@@ -1,37 +1,51 @@
 {
   "copyright": {
     "prefix": "c)",
-    "body": ["Copyright (c) ${CURRENT_YEAR} ${0:Author}. All Rights Reserved."],
+    "body": [
+      "Copyright (c) ${CURRENT_YEAR} ${0:Author}. All Rights Reserved."
+    ],
     "description": "Snippet to put copyright"
   },
   "diso": {
     "prefix": "diso",
-    "body": ["${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}T${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}"],
+    "body": [
+      "${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}T${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}"
+    ],
     "description": "ISO date time stamp"
   },
   "date": {
     "prefix": "date",
-    "body": ["${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}"],
+    "body": [
+      "${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}"
+    ],
     "description": "Put the date in (Y-m-D) format"
   },
   "dateMDY": {
     "prefix": "dateMDY",
-    "body": ["${CURRENT_MONTH}/${CURRENT_DATE}/${CURRENT_YEAR}"],
+    "body": [
+      "${CURRENT_MONTH}/${CURRENT_DATE}/${CURRENT_YEAR}"
+    ],
     "description": "Put the date in (m/D/Y) format"
   },
   "time": {
     "prefix": "time",
-    "body": ["${CURRENT_HOUR}:${CURRENT_MINUTE}"],
+    "body": [
+      "${CURRENT_HOUR}:${CURRENT_MINUTE}"
+    ],
     "description": "I give you back the time (H:M)"
   },
   "timeHMS": {
     "prefix": "timeHMS",
-    "body": ["${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}"],
+    "body": [
+      "${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}"
+    ],
     "description": "I give you back the time (H:M:S)"
   },
   "datetime": {
     "prefix": "datetime",
-    "body": ["${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}"],
+    "body": [
+      "${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}"
+    ],
     "description": "I give you back the time and date (Y-m-d H:M)"
   },
   "Lorem Ipsum Sentence": {
@@ -45,7 +59,7 @@
     "description": "Lorem Ipsum Paragraph"
   },
   "MIT": {
-    "prefix": "mitl" ,
+    "prefix": "mitl",
     "description": "MIT License",
     "body": [
       "The MIT License (MIT)",
@@ -72,7 +86,7 @@
     ]
   },
   "GPL2": {
-    "prefix": "GPL2" ,
+    "prefix": "GPL2",
     "description": "GPLv2 License",
     "body": [
       "The GPLv2 License (GPLv2)",
@@ -94,7 +108,7 @@
     ]
   },
   "LGPL2": {
-    "prefix": "LGPL2" ,
+    "prefix": "LGPL2",
     "description": "GPLv2 License",
     "body": [
       "The GPLv2 License (GPLv2)",

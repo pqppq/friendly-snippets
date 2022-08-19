@@ -1,4 +1,11 @@
 {
+  "Tag": {
+    "prefix": "tg",
+    "body": [
+      "<$1>$0</$1>"
+    ],
+    "description": "xml, html tag"
+  },
   "import Next.js GetStaticProps type": {
     "prefix": "igsp",
     "body": "import { GetStaticProps } from 'next';",
@@ -29,7 +36,11 @@
   },
   "Next.js getInitialProps() inside Class Component": {
     "prefix": "cgip",
-    "body": ["static async getInitialProps() {", "\treturn { $1 };", "}"],
+    "body": [
+      "static async getInitialProps() {",
+      "\treturn { $1 };",
+      "}"
+    ],
     "description": "Next.js static async getInitialProps() inside Class Component"
   },
   "Next.js getStaticProps() export": {

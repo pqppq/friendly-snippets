@@ -1,11 +1,22 @@
 {
+  "Tag": {
+    "prefix": "tg",
+    "body": [
+      "<$1>$0</$1>"
+    ],
+    "description": "xml, html tag"
+  },
   "destructuring of props": {
     "prefix": "dp",
-    "body": ["const { ${1:name} } = this.props"]
+    "body": [
+      "const { ${1:name} } = this.props"
+    ]
   },
   "destructuring of state": {
     "prefix": "ds",
-    "body": ["const { ${1:name} } = this.state"]
+    "body": [
+      "const { ${1:name} } = this.state"
+    ]
   },
   "if falsy return null": {
     "prefix": "ifr",
@@ -324,12 +335,16 @@
   },
   "useContext": {
     "prefix": "uc",
-    "body": ["const $1 = useContext($2)$0"],
+    "body": [
+      "const $1 = useContext($2)$0"
+    ],
     "description": "React useContext() hook"
   },
   "useRef": {
     "prefix": "ur",
-    "body": ["const ${1:elName}El = useRef(null)$0"],
+    "body": [
+      "const ${1:elName}El = useRef(null)$0"
+    ],
     "description": "React useContext() hook"
   },
   "useCallback": {
@@ -351,7 +366,7 @@
     ],
     "description": "React useMemo() hook"
   },
-	"describeBlock": {
+  "describeBlock": {
     "prefix": "desc",
     "body": [
       "describe('$1', () => {",
