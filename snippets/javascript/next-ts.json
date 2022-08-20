@@ -6,6 +6,13 @@
     ],
     "description": "xml, html tag"
   },
+  "Tag single": {
+    "prefix": "tgs",
+    "body": [
+      "<$1 />"
+    ],
+    "description": "xml, html single tag"
+  },
   "import Next.js GetStaticProps type": {
     "prefix": "igsp",
     "body": "import { GetStaticProps } from 'next';",

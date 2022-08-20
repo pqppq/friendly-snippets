@@ -6,6 +6,13 @@
     ],
     "description": "xml, html tag"
   },
+  "Tag single": {
+    "prefix": "tgs",
+    "body": [
+      "<$1 />"
+    ],
+    "description": "xml, html single tag"
+  },
   "destructuring of props": {
     "prefix": "dp",
     "body": [

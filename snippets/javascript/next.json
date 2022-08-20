@@ -6,6 +6,13 @@
     ],
     "description": "xml, html tag"
   },
+  "Tag single": {
+    "prefix": "tgs",
+    "body": [
+      "<$1 />"
+    ],
+    "description": "xml, html single tag"
+  },
   "Next.js Get initial props outside Component": {
     "prefix": "gip",
     "body": "${1:${TM_FILENAME_BASE}}.getInitialProps = ({ req }) => {\treturn $2}",
