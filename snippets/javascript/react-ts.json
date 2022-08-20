@@ -1,4 +1,43 @@
 {
+  "Log to the console": {
+    "prefix": "log",
+    "body": [
+      "console.log($1);"
+    ],
+    "description": "Log to the console"
+  },
+  "Log warning to console": {
+    "prefix": "warn",
+    "body": [
+      "console.warn($1);"
+    ],
+    "description": "Log warning to the console"
+  },
+  "Log error to console": {
+    "prefix": "error",
+    "body": [
+      "console.error($1);"
+    ],
+    "description": "Log error to the console"
+  },
+  "Arrow Function": {
+    "prefix": "ar",
+    "body": [
+      "($1) => {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Arrow Function"
+  },
+  "Callback": {
+    "prefix": "cb",
+    "body": [
+      "'$1', ($2) => {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Callback"
+  },
   "Tag": {
     "prefix": "tg",
     "body": [
