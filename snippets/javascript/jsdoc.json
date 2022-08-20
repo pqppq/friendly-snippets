@@ -1,4 +1,22 @@
 {
+  "Arrow Function": {
+    "prefix": "ar",
+    "body": [
+      "($1) => {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Arrow Function"
+  },
+  "Callback": {
+    "prefix": "cb",
+    "body": [
+      "'$1', ($2) => {",
+      "\t$0",
+      "}"
+    ],
+    "description": "Callback"
+  },
   "JSDoc Comment": {
     "prefix": "/*",
     "body": [
