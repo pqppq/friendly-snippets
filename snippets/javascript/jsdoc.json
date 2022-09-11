@@ -47,6 +47,13 @@
     ],
     "description": "A JSDoc comment"
   },
+  "Tag": {
+    "prefix": "tg",
+    "body": [
+      "<$1 $2>$0</$1>"
+    ],
+    "description": "xml, html tag"
+  },
   "Tag single": {
     "prefix": "tgs",
     "body": [
